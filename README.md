@@ -3,7 +3,7 @@
 Convert Time from one Timezone to Another based on User's Location using DENO.
 Useful when a particular time is to be shown for a user from Different Country.
 
-[![Test CI](https://github.com/denorg/convert-time/workflows/Test%20CI/badge.svg)](https://github.com/denorg/convert-time/actions)
+[![Test CI](https://github.com/denorg/get-ip/workflows/Deno%20CI/badge.svg)](https://github.com/guptamohit004/convert-time/actions)
 
 ## ⭐ Getting started
 
