@@ -10,7 +10,7 @@ Useful when a particular time is to be shown for a user from Different Country.
 Import the `convertTime` function and use it:
 
 ```ts
-import { convertTime } from "https://deno.land/x/convert_time/mod.ts";
+import { convertTime } from "https://deno.land/x/convertTime/mod.ts";
 
 const convertedtime = async () => {
     var convertedTime=await convertTime();
@@ -30,19 +30,19 @@ convertedtime();
 Alternatively, you can use it directly from the CLI by using `deno run --allow-net cli.ts`:
 
 ```bash
-deno run --allow-net https://deno.land/x/convert_time/cli.ts
+deno run --allow-net https://deno.land/x/convertTime/cli.ts
 ```
 
 You can also install it globally using the following:
 
 ```bash
-deno install --allow-net -n convert-time https://deno.land/x/convert_time/cli.ts
+deno install --allow-net -n convertTime https://deno.land/x/convertTime/cli.ts
 ```
 
 Then, the package is available to run:
 
 ```bash
-convert_time
+convertTime 
 ```
 
 ### Configuration
